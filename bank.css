@@ -1,0 +1,347 @@
+*{
+    padding: 0;
+    margin:0;
+}
+body{
+    overflow-x:hidden;
+}
+
+.wrapper-top{
+    height: 32px;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+.wrapper-top .content-top{
+    height: 32px;
+    width: 1000px;
+    margin:0 auto;
+}
+.wrapper-top .content-top  .left-top{
+    list-style: none;
+
+
+}
+.wrapper-top .content-top  .left-top li{
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 20px;
+    line-height: 32px;
+    width: 90px;
+    height:32px;
+
+    float: left;
+}
+.wrapper-top .content-top  .left-top .person-top{
+    font-size: 14px;
+    text-align: center;
+    width: 90px;
+    height:32px;
+    background-color: #c7000b;
+    color: white;
+}
+.wrapper-top .content-top  .left-top .country-top:hover{
+    text-align: center;
+    width: 90px;
+    height:32px;
+    background-color: #c7000b;
+    color: white;
+
+}
+.wrapper-top .content-top .right-top{
+    float:right;
+}
+.wrapper-top .content-top .right-top li{
+    cursor: pointer;
+    font-size: 14px;
+    list-style: none;
+    float: left;
+    margin-left: 30px;
+    line-height: 32px;
+}
+.wrapper-top .content-top .right-top li:hover{
+    color:#c7000b;
+}
+.logo-top{
+    height: 80px;
+    width: 100%;
+    background-color: #ffffff;
+
+}
+
+.logo-top  .content-log{
+    height: 80px;
+    width: 1000px;
+    margin:0 auto;
+}
+.logo-top  .content-log a{
+    margin-top: 15px;
+    display: inline-block;
+    width: 356px;
+    height:53px;
+    background-size: 100% 100%;
+    background-image:url("bg/log.png");
+    text-indent: 356px;
+    overflow: hidden;
+}
+
+.logo-top  .content-log form{
+    float: right;
+    margin-top: 25px;
+}
+.logo-top  .content-log form .shuru{
+    margin-right: -5px;
+    height: 37px;
+    width: 200px;
+    border:0.5px solid #e5e5e5;
+    border-right:none;
+}
+.logo-top  .content-log form .button{
+
+
+    background-color: #d00f1b;
+    display: inline-block;
+    height: 37px;
+    border:0.5px solid #d00f1b;
+    width: 53px;
+    background-image: url("bg/button.png");
+    background-size: 100% 100%;
+    text-indent:-9999px;
+    background-position: 0 2px;
+    overflow: hidden;
+}
+.wrapper-menu {
+    height: 45px;
+    width: 100%;
+    background-color: #c7000b;
+}
+.wrapper-menu .center-menu{
+    height: 45px;
+    width:1000px;
+    margin: 0 auto;
+
+
+}
+.wrapper-menu .center-menu .menu{
+    display: inline-block;
+    list-style: none;
+
+
+}
+.wrapper-menu .center-menu .menu li{
+    cursor: pointer;
+    display: inline-block;
+    font-size:19px;
+    margin-right:39px;
+    color:white;
+    line-height: 45px;
+    float: left;
+}
+.wrapper-menu .center-menu .menu .yi{
+    color:#810f16;
+}
+.wrapper-bg {
+    position: relative;
+    width: 100%;
+    height: 380px;
+    /*background-image: url("bg/bgtt.jpg");*/
+
+}
+.wrapper-bg img{
+    width: 100%;
+    display: none;
+    position: absolute;
+    left:0;
+    top:0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.wrapper-bg #ul{
+    position: absolute;
+    left: 1080px;
+    bottom:23px;
+}
+
+.wrapper-bg #ul li{
+    list-style: none;
+    width: 50px;
+    height:5px;
+    background-color: #DDDDDD;
+    float:left;
+    /*border-radius: 50%;*/
+    margin-right: 15px;
+}
+
+
+
+
+
+
+
+
+.wrapper-bg .content-bg{
+    position: relative;
+    width:1000px;
+    height:380px;
+    margin: 0 auto;
+}
+.wrapper-bg .content-bg form{
+    position: absolute;
+    display: inline-block;
+    margin-top: 15px;
+    left: 0;
+    width: 250px;
+    height: 365px;
+    background-color: #ffffff;
+
+}
+.wrapper-bg .content-bg form .login{
+    font-weight: bold;
+    font-size: 17px;
+    color: #666666;
+    display: inline-block;
+    /*margin-top: 35px;*/
+}
+
+.denglu{
+    position: absolute;
+    display: inline-block;
+    margin-top: 35px;
+    margin-left: 20px;
+
+}
+
+.wrapper-bg .content-bg form .login a{
+    /*position: absolute;*/
+    background-image: url("bg/weima.png");
+    display: inline-block;
+    width: 76px;
+    height: 60px;
+    background-size: 100% 100%;
+    margin-left: 170px;
+    margin-top: 20px;
+
+}
+.wrapper-bg .content-bg form .card input{
+    width: 190px;
+    height:29px;
+
+}
+.wrapper-bg .content-bg form .card{
+    margin-top: 30px;
+}
+.wrapper-bg .content-bg form .mima input{
+    width: 190px;
+    height:29px;
+
+}
+.wrapper-bg .content-bg form .mima {
+    margin-top: 20px;
+}
+.wrapper-bg .content-bg form .button{
+
+    width: 190px;
+    height:29px;
+    background-color: #c7000b;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-left: 35px;
+    border: 1px solid #c7000b;
+    display: block;
+}
+.wrapper-bg .content-bg form .zhuce{
+    display: inline-block;
+    margin-top: 35px;
+    margin-left: 187px;
+    text-decoration: none;
+    color: #5abdff;
+}
+.wrapper-bg .content-bg form .xiaohu{
+    position: absolute;
+    display: inline-block;
+    text-decoration: none;
+    color: #5abdff;
+    margin-top: 70px;
+    margin-left: 187px;
+
+}
+.wrapper-bg .content-bg form .zhuce:hover {
+    font-weight: bold;
+    color: #e32a2e;
+}
+
+.wrapper-bg .content-bg form .xiaohu:hover{
+    color: #e32a2e;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+.wrapper-bottom{
+    width: 100%;
+    height:240px;
+    background-color: #f3f3f3;
+}
+.wrapper-bottom .content-bottom{
+    width:1000px;
+    height:240px;
+    background-color: #f3f3f3;
+}
+
+.search{
+    width: 379px;
+    height: 61px;
+    display: inline-block;
+    background-size: 100% 100%;
+    background-image: url("bg/bottom.png");
+    background-repeat: no-repeat;
+    margin-left: 750px;
+}
+#l0{
+    display: inline-block;
+    background-image: url("bg/1.jpg");
+    width: 100px;
+    height: 100px;
+    background-size: 100% 100%;
+    margin-left: 70px;
+}
+#l1{
+    display: block;
+    margin-top: 60px;
+    margin-left: 20px;
+    text-decoration: none;
+    border: 1px solid red;
+    width: 200px;
+    height:30px;
+    font-size: 17px;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    background-color: #e32a2e;
+}
+#l2{
+    display: block;
+    margin-top:50px;
+    margin-left: 20px;
+    text-decoration: none;
+    border: 1px solid red;
+    width: 200px;
+    height:30px;
+    font-size: 17px;
+    text-align: center;
+    line-height: 30px;
+    color:#f6f6f6;
+    background-color: #e32a2e;
+}
+#l3{
+    display: inline-block;
+    background-image: url("bg/2.jpg");
+    width: 170px;
+    height: 198px;
+    background-size: 100% 100%;
+    margin-left: 50px;
+}
+
